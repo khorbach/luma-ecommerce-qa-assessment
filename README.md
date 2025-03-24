@@ -12,8 +12,8 @@ Test cases, findings and suggestions can be find in `FinalReport.md` file.
 
 2. **Clone the Repository:**  
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/khorbach/luma-ecommerce-qa-assessment.git
+   cd luma-ecommerce-qa-assessment
 3. **Install Dependencies:**
    ```bash
    npm install
