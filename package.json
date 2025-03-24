@@ -1,0 +1,19 @@
+{
+  "name": "luma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "clean": "rimraf test-results",
+  "test": "npm run clean && npx playwright test"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.11",
+    "playwright": "^1.51.1",
+    "typescript": "^5.8.2"
+  }
+}

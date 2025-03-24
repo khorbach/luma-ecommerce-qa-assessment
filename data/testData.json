@@ -1,0 +1,61 @@
+{
+  "search": {
+    "validCases": [
+      {
+        "query": "leggings",
+        "expectedCount": 4
+      },
+      {
+        "query": "green",
+        "expectedCount": 56
+      }
+    ],
+    "invalidCases": [
+      {
+        "query": "asdkjfhaskjdf"
+      },
+      {
+        "query": "@#$%^&*()_+"
+      },
+      {
+        "query": "thisisaverylongsearchquerythatexceedsnormallimitsandshouldnotreturnresults"
+      }
+    ],
+    "emptyCases": [
+      {
+        "query": "    ",
+        "checkSearchButton": true
+      },
+      {
+        "query": "",
+        "checkSearchButton": true
+      }
+    ]
+  },
+  "wishlist": {
+    "email": "joan.doe@test.de",
+    "password": "9_b@vBjX_8Bt9NT",
+    "productName": "Push It Messenger Bag",
+    "productLink": "https://magento.softwaretestingboard.com/push-it-messenger-bag.html",
+    "wishlistUrl": "https://magento.softwaretestingboard.com/wishlist/index/index/wishlist_id/116140/"
+  },
+  "shoppingCart": {
+    "product": {
+      "name": "Sahara Leggings",
+      "url": "/sahara-leggings.html",
+      "size": "29",
+      "color": "Red",
+      "price": "60.00",
+      "quantity": 1
+    },
+    "shipping": {
+      "country": "Germany",
+      "region": "Berlin",
+      "zipCode": "10439",
+      "shippingMethod": "Flat Rate",
+      "shippingPrice": "$5.00",
+      "subtotalPrice": "$60.00",
+      "orderTotalPrice": "$65.00"
+    }
+  }
+}
